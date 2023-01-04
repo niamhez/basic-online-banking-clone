@@ -133,7 +133,7 @@ public class homepage{
 
         LinkedList<createaccount> ll= new LinkedList<>();
         boolean program = true;
-        System.out.println("Thank you for choosing to bank with us💩");
+        System.out.println("Thank you for choosing to bank with us");
         String logged;
         while(program) {
             login(ll);
