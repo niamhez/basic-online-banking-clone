@@ -3,9 +3,9 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class homepage{
-// 29/12/22 12:47
+
     public static void options(createaccount hm,LinkedList<createaccount> ll){
-//27/12/22 14:59
+
         System.out.println("WELCOME "+hm.username.toUpperCase());
         String hold,user;
         Scanner sc;
@@ -130,7 +130,7 @@ public class homepage{
         System.out.println("Select 1 to exit\nSelect 2 to return to the menu");
     }
     public static void listing(){
-//        29/12/22 00:27
+
         LinkedList<createaccount> ll= new LinkedList<>();
         boolean program = true;
         System.out.println("Thank you for choosing to bank with us💩");
